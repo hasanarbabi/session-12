@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            display: flex;
+        }
+        .main {
+            background-color: tomato;
+            width: 100%;
+        }
+        .box {
+            width: 150px;
+            height: 150px;
+        }
+        .link1 {
+            background-color: darkred;
+        }
+        .link2 {
+            background-color: white;
+        }
+        .link3 {
+            background-color: rgb(0, 160, 0);
+        }
+        .link4 {
+            background-color: rgb(255, 208, 0);
+        }
+        .box:hover {
+            background-color: tomato;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main"></div>
+        <div class="sidebar">
+            <a href="#"><div class="box link1">لینک اول</div></a>
+            <a href="#"><div class="box link2">لینک دوم</div></a>
+            <a href="#"><div class="box link3">لینک سوم</div></a>
+            <a href="#"><div class="box link4">لینک چهارم</div></a>
+        </div>
+    </div>
+</body>
+</html>
